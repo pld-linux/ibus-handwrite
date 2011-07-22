@@ -1,7 +1,7 @@
 Summary:	IBus handwrite project
 Name:		ibus-handwrite
 Version:	2.1.3
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://ibus-handwrite.googlecode.com/files/%{name}-%{version}.tar.gz
