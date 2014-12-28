@@ -9,7 +9,7 @@ Group:		Libraries
 Source0:	http://ibus-handwrite.googlecode.com/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	4aafbee7ec20883c7ab94f8fdfad8917
 URL:		http://code.google.com/p/ibus-handwrite/
-BuildRequires:	gettext-devel >= 0.16.1
+BuildRequires:	gettext-tools >= 0.16.1
 BuildRequires:	gtk+2-devel >= 2:2.10
 BuildRequires:	gtkglext-devel
 BuildRequires:	ibus-devel >= 1.3
