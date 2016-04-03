@@ -1,21 +1,19 @@
 Summary:	IBus handwrite project
 Summary(pl.UTF-8):	Moduł IBus do pisma ręcznego
 Name:		ibus-handwrite
-Version:	2.1.4
+Version:	3.0.0
 Release:	1
 License:	GPL v2+
 Group:		Libraries
-#Source0Download: http://code.google.com/p/ibus-handwrite/downloads/list
-Source0:	http://ibus-handwrite.googlecode.com/files/%{name}-%{version}.tar.bz2
-# Source0-md5:	4aafbee7ec20883c7ab94f8fdfad8917
-URL:		http://code.google.com/p/ibus-handwrite/
+#Source0Download: https://github.com/microcai/ibus-handwrite/releases
+Source0:	https://github.com/microcai/ibus-handwrite/releases/download/3.0/%{name}-%{version}.tar.bz2
+# Source0-md5:	70869d907c6634616893cd0510ee078f
+URL:		https://github.com/microcai/ibus-handwrite
 BuildRequires:	gettext-tools >= 0.16.1
-BuildRequires:	gtk+2-devel >= 2:2.10
-BuildRequires:	gtkglext-devel
+BuildRequires:	gtk+3-devel >= 3.0
 BuildRequires:	ibus-devel >= 1.3
 BuildRequires:	pkgconfig
 BuildRequires:	zinnia-devel
-Requires:	gtk+2 >= 2:2.10
 Requires:	ibus >= 1.3
 Requires:	zinnia-tomoe
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
